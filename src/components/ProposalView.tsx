@@ -2,6 +2,7 @@
 
 import { Header } from "@/components/layout/Header";
 import { ScrollProgress } from "@/components/layout/ScrollProgress";
+import { ScrollToTop } from "@/components/layout/ScrollToTop";
 import { Hero } from "@/components/sections/Hero";
 import { TheIdea } from "@/components/sections/TheIdea";
 import { ROI } from "@/components/sections/ROI";
@@ -19,6 +20,7 @@ export function ProposalView() {
   return (
     <main className="min-h-screen selection:bg-primary/20">
       <ScrollProgress />
+      <ScrollToTop />
       <Header />
       <Hero />
       <TheIdea />

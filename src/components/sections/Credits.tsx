@@ -29,8 +29,7 @@ export function Credits() {
           <ShieldCheck className="size-7 text-primary" />
         </motion.div>
         <h3 className="mb-6 text-xl font-bold">{t("creditsTitle")}</h3>
-        <p className="text-sm text-muted-foreground">{t("creditsLine1")}</p>
-        <p className="mt-1 text-sm text-muted-foreground">{t("creditsLine2")}</p>
+        <p className="text-sm text-muted-foreground">{t("creditsLine2")}</p>
         <p className="mt-4 text-xs text-muted-foreground/60">
           &copy; {t("creditsYear")}
         </p>

@@ -10,6 +10,7 @@ const ar = {
   navCurrent: "الوضع الحالي",
   navTeam: "الفريق",
   langToggle: "English",
+  scrollToTop: "العودة لأعلى الصفحة",
 
   accessLoading: "جاري التحميل",
   accessTitle: "الدخول إلى المقترح",
@@ -172,7 +173,6 @@ const ar = {
 
   // Credits
   creditsTitle: "حقوق الملكية الفكرية",
-  creditsLine1: "الفكرة والتصميم والتنفيذ: عمر الإمام",
   creditsLine2: "مقترح داخلي للشركة — جميع الحقوق محفوظة",
   creditsYear: "2026",
 
@@ -197,6 +197,7 @@ const en: typeof ar = {
   navCurrent: "Current State",
   navTeam: "Team",
   langToggle: "العربية",
+  scrollToTop: "Back to top",
 
   accessLoading: "Loading",
   accessTitle: "Access the proposal",
@@ -348,7 +349,6 @@ const en: typeof ar = {
   yaraDesc: "Responsible for writing test cases, validating automation accuracy, and providing business domain knowledge.",
 
   creditsTitle: "Intellectual Property",
-  creditsLine1: "Concept, Design & Implementation: Omar Elemam",
   creditsLine2: "Internal company proposal — All rights reserved",
   creditsYear: "2026",
 

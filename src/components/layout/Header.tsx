@@ -22,8 +22,10 @@ export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const scrollTo = (id: string) => {
-    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
     setMobileOpen(false);
+    setTimeout(() => {
+      document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+    }, 300);
   };
 
   const toggleLocale = () => setLocale(locale === "ar" ? "en" : "ar");
